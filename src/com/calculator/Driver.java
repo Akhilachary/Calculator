@@ -51,6 +51,14 @@ public class Driver {
 				}
 				break;
 			case 4:{
+				System.out.println("DIVISION OPERATION");
+				System.out.println("enter 1st value");
+				int a=sc.nextInt();
+				
+				 System.out.println("enter 2nd value");
+				 int b=sc.nextInt();
+				 int res=implementation.div(a,b);
+				 System.out.println("DIVISION OF TWO NUMBERS IS "+a+ " AND " +b+" IS= " +res);
 				
 				}
 				break;

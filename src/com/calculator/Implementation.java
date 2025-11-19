@@ -23,7 +23,7 @@ public class Implementation implements Calculator{
 	@Override
 	public int div(int a, int b) {
 		// TODO Auto-generated method stub
-		return 0;
+		return a/b;
 	}
 
 }
