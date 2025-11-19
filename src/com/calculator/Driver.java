@@ -26,7 +26,7 @@ public class Driver {
 					System.out.println("Enter second value");
 					int b = sc.nextInt();
 					
-					int answer = implementation.add(a, b);
+					int answer = implementation.add(20, 30);
 					
 					System.out.println("Addition of "+a+" and "+b +" is :"+answer);
 				}
@@ -39,11 +39,10 @@ public class Driver {
 				System.out.println("You have choosen Mutliplication operation.");
 				System.out.println("Enter first value");
 				int a = sc.nextInt();
-				
 				System.out.println("Enter second value");
 				int b = sc.nextInt();
 				
-				int answer = implementation.mul(a, b);
+				int answer = implementation.mul(10, 20);
 				
 				System.out.println("Multiplication of "+a+" and "+b +" is :"+answer);
 				
