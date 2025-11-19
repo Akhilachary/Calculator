@@ -1,6 +1,6 @@
 package com.calculator;
 
-public class Addition implements Calculator{
+public class Implementation implements Calculator{
 
 	@Override
 	public int add(int a, int b) {
